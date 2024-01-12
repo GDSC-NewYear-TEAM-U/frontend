@@ -1,0 +1,96 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/detail";
+exports.ids = ["pages/detail"];
+exports.modules = {
+
+/***/ "./pages/components/atom.ts":
+/*!**********************************!*\
+  !*** ./pages/components/atom.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"LoginData\": () => (/* binding */ LoginData),\n/* harmony export */   \"goodsData\": () => (/* binding */ goodsData)\n/* harmony export */ });\n/* harmony import */ var recoil__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! recoil */ \"recoil\");\n/* harmony import */ var recoil__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(recoil__WEBPACK_IMPORTED_MODULE_0__);\n\nconst goodsData = (0,recoil__WEBPACK_IMPORTED_MODULE_0__.atom)({\n    key: \"goodsName\",\n    default: {\n        goodsType: \"\",\n        info: \"\",\n        image: \"\"\n    }\n});\nconst LoginData = (0,recoil__WEBPACK_IMPORTED_MODULE_0__.atom)({\n    key: \"loginData\",\n    default: \"\"\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9jb21wb25lbnRzL2F0b20udHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUE4QjtBQUV2QixNQUFNQyxZQUFZRCw0Q0FBSUEsQ0FBQztJQUM1QkUsS0FBSztJQUNMQyxTQUFTO1FBQ1BDLFdBQVc7UUFDWEMsTUFBTTtRQUNOQyxPQUFPO0lBQ1Q7QUFDRixHQUFHO0FBRUksTUFBTUMsWUFBWVAsNENBQUlBLENBQUM7SUFDNUJFLEtBQUs7SUFDTEMsU0FBUztBQUNYLEdBQUciLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zbWFsbC1wcm9qZWN0Ly4vcGFnZXMvY29tcG9uZW50cy9hdG9tLnRzPzM0YmEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgYXRvbSB9IGZyb20gXCJyZWNvaWxcIjtcblxuZXhwb3J0IGNvbnN0IGdvb2RzRGF0YSA9IGF0b20oe1xuICBrZXk6IFwiZ29vZHNOYW1lXCIsXG4gIGRlZmF1bHQ6IHtcbiAgICBnb29kc1R5cGU6IFwiXCIsXG4gICAgaW5mbzogXCJcIixcbiAgICBpbWFnZTogXCJcIixcbiAgfSxcbn0pO1xuXG5leHBvcnQgY29uc3QgTG9naW5EYXRhID0gYXRvbSh7XG4gIGtleTogXCJsb2dpbkRhdGFcIixcbiAgZGVmYXVsdDogXCJcIixcbn0pO1xuIl0sIm5hbWVzIjpbImF0b20iLCJnb29kc0RhdGEiLCJrZXkiLCJkZWZhdWx0IiwiZ29vZHNUeXBlIiwiaW5mbyIsImltYWdlIiwiTG9naW5EYXRhIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/components/atom.ts\n");
+
+/***/ }),
+
+/***/ "./pages/detail.tsx":
+/*!**************************!*\
+  !*** ./pages/detail.tsx ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_atom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/atom */ \"./pages/components/atom.ts\");\n/* harmony import */ var recoil__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! recoil */ \"recoil\");\n/* harmony import */ var recoil__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(recoil__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react_icons_sl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/sl */ \"react-icons/sl\");\n/* harmony import */ var react_icons_sl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_icons_sl__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\nconst Container = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__Container\",\n    componentId: \"sc-7acaf57a-0\"\n})`\n  display: flex;\n  justify-content: center;\n  width: 430px;\n  height: 100vh;\n  background-color: white;\n`;\nconst MainTextBox = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__MainTextBox\",\n    componentId: \"sc-7acaf57a-1\"\n})`\n  width: 430px;\n  height: 180px;\n  background-color: rgba(255, 129, 86, 1);\n`;\nconst TitleText = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__TitleText\",\n    componentId: \"sc-7acaf57a-2\"\n})`\n  font-weight: 700;\n  font-size: 20px;\n  color: white;\n  margin: 130px 40px 20px 40px;\n`;\nconst DisplayCenter = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__DisplayCenter\",\n    componentId: \"sc-7acaf57a-3\"\n})`\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n`;\nconst Image = styled_components__WEBPACK_IMPORTED_MODULE_1___default().img.withConfig({\n    displayName: \"detail__Image\",\n    componentId: \"sc-7acaf57a-4\"\n})`\n  margin-top: 100px;\n  width: 230px;\n  heigth: 230px;\n`;\nconst MainImage = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__MainImage\",\n    componentId: \"sc-7acaf57a-5\"\n})`\n  width: 225px;\n  height: 225px;\n  font-size: 185px;\n  color: #ff589a;\n`;\nconst MainText = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__MainText\",\n    componentId: \"sc-7acaf57a-6\"\n})`\n  margin-top: 30px;\n  font-weight: 700;\n  font-size: 28px;\n`;\nconst DetailText = styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n    displayName: \"detail__DetailText\",\n    componentId: \"sc-7acaf57a-7\"\n})`\nmargin: 0 40px;\nmargin-top 20px;\nfont-weight: 400;\nfont-size: 14px;\n`;\nconst Button = styled_components__WEBPACK_IMPORTED_MODULE_1___default().button.withConfig({\n    displayName: \"detail__Button\",\n    componentId: \"sc-7acaf57a-8\"\n})`\n  border: 0;\n  margin-top: 30px;\n  padding: 12px 25px;\n  background: linear-gradient(\n    90deg,\n    rgba(255, 88, 154, 1) 0%,\n    rgba(255, 129, 86, 1) 100%\n  );\n  width: 290px;\n  min-height: 45px;\n  border-radius: 116px;\n  font-size: 16px;\n  color: white;\n  cursor: pointer;\n  :hover {\n    background: linear-gradient(\n      90deg,\n      rgba(222, 88, 154, 1) 0%,\n      rgba(222, 129, 86, 1) 100%\n    );\n  }\n`;\nconst Detail = ()=>{\n    const [goodsDetail, setGoodsDetail] = (0,recoil__WEBPACK_IMPORTED_MODULE_3__.useRecoilState)(_components_atom__WEBPACK_IMPORTED_MODULE_2__.goodsData);\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_5__.useRouter)();\n    console.log(goodsDetail);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Container, {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(MainTextBox, {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(TitleText, {\n                        children: \"당신의 연인을 위한 선물은\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                        lineNumber: 91,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(DisplayCenter, {\n                        children: [\n                            goodsDetail?.image != \"\" ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Image, {\n                                src: goodsDetail?.image\n                            }, void 0, false, {\n                                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                lineNumber: 94,\n                                columnNumber: 15\n                            }, undefined) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(MainImage, {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_sl__WEBPACK_IMPORTED_MODULE_4__.SlPresent, {}, void 0, false, {\n                                    fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                    lineNumber: 97,\n                                    columnNumber: 17\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                lineNumber: 96,\n                                columnNumber: 15\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(MainText, {\n                                children: goodsDetail?.goodsType\n                            }, void 0, false, {\n                                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                lineNumber: 100,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(DetailText, {\n                                children: goodsDetail?.info\n                            }, void 0, false, {\n                                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                lineNumber: 101,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Button, {\n                                onClick: ()=>router.push(`/goods`),\n                                children: \"상품보기\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                                lineNumber: 102,\n                                columnNumber: 13\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                        lineNumber: 92,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n                lineNumber: 90,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/dongjae/Desktop/frontend 2/pages/detail.tsx\",\n            lineNumber: 89,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Detail);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9kZXRhaWwudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQXVDO0FBQ087QUFDVTtBQUViO0FBQ0g7QUFFeEMsTUFBTUssWUFBWUwsdUVBQVU7OztFQUFBLENBQUM7Ozs7OztBQU03QixDQUFDO0FBRUQsTUFBTU8sY0FBY1AsdUVBQVU7OztFQUFBLENBQUM7Ozs7QUFJL0IsQ0FBQztBQUVELE1BQU1RLFlBQVlSLHVFQUFVOzs7RUFBQSxDQUFDOzs7OztBQUs3QixDQUFDO0FBRUQsTUFBTVMsZ0JBQWdCVCx1RUFBVTs7O0VBQUEsQ0FBQzs7OztBQUlqQyxDQUFDO0FBRUQsTUFBTVUsUUFBUVYsdUVBQVU7OztFQUFBLENBQUM7Ozs7QUFJekIsQ0FBQztBQUNELE1BQU1ZLFlBQVlaLHVFQUFVOzs7RUFBQSxDQUFDOzs7OztBQUs3QixDQUFDO0FBQ0QsTUFBTWEsV0FBV2IsdUVBQVU7OztFQUFBLENBQUM7Ozs7QUFJNUIsQ0FBQztBQUNELE1BQU1jLGFBQWFkLHVFQUFVOzs7RUFBQSxDQUFDOzs7OztBQUs5QixDQUFDO0FBRUQsTUFBTWUsU0FBU2YsMEVBQWE7OztFQUFBLENBQUM7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFzQjdCLENBQUM7QUFFRCxNQUFNaUIsU0FBUyxJQUFNO0lBQ25CLE1BQU0sQ0FBQ0MsYUFBYUMsZUFBZSxHQUFHakIsc0RBQWNBLENBQUNELHVEQUFTQTtJQUU5RCxNQUFNbUIsU0FBU2hCLHNEQUFTQTtJQUN4QmlCLFFBQVFDLEdBQUcsQ0FBQ0o7SUFDWixxQkFDRTtrQkFDRSw0RUFBQ2I7c0JBQ0MsNEVBQUNFOztrQ0FDQyw4REFBQ0M7a0NBQVU7Ozs7OztrQ0FDWCw4REFBQ0M7OzRCQUNFUyxhQUFhSyxTQUFTLG1CQUNyQiw4REFBQ2I7Z0NBQU1jLEtBQUtOLGFBQWFLOzs7OzswREFFekIsOERBQUNYOzBDQUNDLDRFQUFDVCxxREFBU0E7Ozs7Ozs7Ozt5Q0FFYjswQ0FDRCw4REFBQ1U7MENBQVVLLGFBQWFPOzs7Ozs7MENBQ3hCLDhEQUFDWDswQ0FBWUksYUFBYVE7Ozs7OzswQ0FDMUIsOERBQUNYO2dDQUFPWSxTQUFTLElBQU1QLE9BQU9RLElBQUksQ0FBQyxDQUFDLE1BQU0sQ0FBQzswQ0FBRzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTTFEO0FBRUEsaUVBQWVYLE1BQU1BLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zbWFsbC1wcm9qZWN0Ly4vcGFnZXMvZGV0YWlsLnRzeD80YmM2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInN0eWxlZC1jb21wb25lbnRzXCI7XG5pbXBvcnQgeyBnb29kc0RhdGEgfSBmcm9tIFwiLi9jb21wb25lbnRzL2F0b21cIjtcbmltcG9ydCB7IHVzZVJlY29pbFN0YXRlLCB1c2VSZWNvaWxWYWx1ZSB9IGZyb20gXCJyZWNvaWxcIjtcbmltcG9ydCB7IHVzZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgU2xQcmVzZW50IH0gZnJvbSBcInJlYWN0LWljb25zL3NsXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcblxuY29uc3QgQ29udGFpbmVyID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIHdpZHRoOiA0MzBweDtcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG5gO1xuXG5jb25zdCBNYWluVGV4dEJveCA9IHN0eWxlZC5kaXZgXG4gIHdpZHRoOiA0MzBweDtcbiAgaGVpZ2h0OiAxODBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDEyOSwgODYsIDEpO1xuYDtcblxuY29uc3QgVGl0bGVUZXh0ID0gc3R5bGVkLmRpdmBcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgZm9udC1zaXplOiAyMHB4O1xuICBjb2xvcjogd2hpdGU7XG4gIG1hcmdpbjogMTMwcHggNDBweCAyMHB4IDQwcHg7XG5gO1xuXG5jb25zdCBEaXNwbGF5Q2VudGVyID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbmNvbnN0IEltYWdlID0gc3R5bGVkLmltZ2BcbiAgbWFyZ2luLXRvcDogMTAwcHg7XG4gIHdpZHRoOiAyMzBweDtcbiAgaGVpZ3RoOiAyMzBweDtcbmA7XG5jb25zdCBNYWluSW1hZ2UgPSBzdHlsZWQuZGl2YFxuICB3aWR0aDogMjI1cHg7XG4gIGhlaWdodDogMjI1cHg7XG4gIGZvbnQtc2l6ZTogMTg1cHg7XG4gIGNvbG9yOiAjZmY1ODlhO1xuYDtcbmNvbnN0IE1haW5UZXh0ID0gc3R5bGVkLmRpdmBcbiAgbWFyZ2luLXRvcDogMzBweDtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgZm9udC1zaXplOiAyOHB4O1xuYDtcbmNvbnN0IERldGFpbFRleHQgPSBzdHlsZWQuZGl2YFxubWFyZ2luOiAwIDQwcHg7XG5tYXJnaW4tdG9wIDIwcHg7XG5mb250LXdlaWdodDogNDAwO1xuZm9udC1zaXplOiAxNHB4O1xuYDtcblxuY29uc3QgQnV0dG9uID0gc3R5bGVkLmJ1dHRvbmBcbiAgYm9yZGVyOiAwO1xuICBtYXJnaW4tdG9wOiAzMHB4O1xuICBwYWRkaW5nOiAxMnB4IDI1cHg7XG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudChcbiAgICA5MGRlZyxcbiAgICByZ2JhKDI1NSwgODgsIDE1NCwgMSkgMCUsXG4gICAgcmdiYSgyNTUsIDEyOSwgODYsIDEpIDEwMCVcbiAgKTtcbiAgd2lkdGg6IDI5MHB4O1xuICBtaW4taGVpZ2h0OiA0NXB4O1xuICBib3JkZXItcmFkaXVzOiAxMTZweDtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBjb2xvcjogd2hpdGU7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgICA5MGRlZyxcbiAgICAgIHJnYmEoMjIyLCA4OCwgMTU0LCAxKSAwJSxcbiAgICAgIHJnYmEoMjIyLCAxMjksIDg2LCAxKSAxMDAlXG4gICAgKTtcbiAgfVxuYDtcblxuY29uc3QgRGV0YWlsID0gKCkgPT4ge1xuICBjb25zdCBbZ29vZHNEZXRhaWwsIHNldEdvb2RzRGV0YWlsXSA9IHVzZVJlY29pbFN0YXRlKGdvb2RzRGF0YSk7XG5cbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XG4gIGNvbnNvbGUubG9nKGdvb2RzRGV0YWlsKTtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPENvbnRhaW5lcj5cbiAgICAgICAgPE1haW5UZXh0Qm94PlxuICAgICAgICAgIDxUaXRsZVRleHQ+64u57Iug7J2YIOyXsOyduOydhCDsnITtlZwg7ISg66y87J2APC9UaXRsZVRleHQ+XG4gICAgICAgICAgPERpc3BsYXlDZW50ZXI+XG4gICAgICAgICAgICB7Z29vZHNEZXRhaWw/LmltYWdlICE9IFwiXCIgPyAoXG4gICAgICAgICAgICAgIDxJbWFnZSBzcmM9e2dvb2RzRGV0YWlsPy5pbWFnZX0gLz5cbiAgICAgICAgICAgICkgOiAoXG4gICAgICAgICAgICAgIDxNYWluSW1hZ2U+XG4gICAgICAgICAgICAgICAgPFNsUHJlc2VudCAvPlxuICAgICAgICAgICAgICA8L01haW5JbWFnZT5cbiAgICAgICAgICAgICl9XG4gICAgICAgICAgICA8TWFpblRleHQ+e2dvb2RzRGV0YWlsPy5nb29kc1R5cGV9PC9NYWluVGV4dD5cbiAgICAgICAgICAgIDxEZXRhaWxUZXh0Pntnb29kc0RldGFpbD8uaW5mb308L0RldGFpbFRleHQ+XG4gICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9eygpID0+IHJvdXRlci5wdXNoKGAvZ29vZHNgKX0+7IOB7ZKI67O06riwPC9CdXR0b24+XG4gICAgICAgICAgPC9EaXNwbGF5Q2VudGVyPlxuICAgICAgICA8L01haW5UZXh0Qm94PlxuICAgICAgPC9Db250YWluZXI+XG4gICAgPC8+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBEZXRhaWw7XG4iXSwibmFtZXMiOlsic3R5bGVkIiwiZ29vZHNEYXRhIiwidXNlUmVjb2lsU3RhdGUiLCJTbFByZXNlbnQiLCJ1c2VSb3V0ZXIiLCJDb250YWluZXIiLCJkaXYiLCJNYWluVGV4dEJveCIsIlRpdGxlVGV4dCIsIkRpc3BsYXlDZW50ZXIiLCJJbWFnZSIsImltZyIsIk1haW5JbWFnZSIsIk1haW5UZXh0IiwiRGV0YWlsVGV4dCIsIkJ1dHRvbiIsImJ1dHRvbiIsIkRldGFpbCIsImdvb2RzRGV0YWlsIiwic2V0R29vZHNEZXRhaWwiLCJyb3V0ZXIiLCJjb25zb2xlIiwibG9nIiwiaW1hZ2UiLCJzcmMiLCJnb29kc1R5cGUiLCJpbmZvIiwib25DbGljayIsInB1c2giXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/detail.tsx\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react-icons/sl":
+/*!*********************************!*\
+  !*** external "react-icons/sl" ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = require("react-icons/sl");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "recoil":
+/*!*************************!*\
+  !*** external "recoil" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("recoil");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("styled-components");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/detail.tsx"));
+module.exports = __webpack_exports__;
+
+})();
