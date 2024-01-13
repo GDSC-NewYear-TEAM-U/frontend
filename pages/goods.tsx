@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { useRecoilValue } from "recoil";
 import styled from "styled-components";
-import { goodsData } from "./components/atom";
+import { goodsData } from "./components/atom/atom";
 
 const Container = styled.div`
   display: flex;

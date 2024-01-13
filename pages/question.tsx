@@ -8,7 +8,7 @@ import {
 import styled from "styled-components";
 import { useRouter } from "next/router";
 import { useSetRecoilState } from "recoil";
-import { goodsData } from "./components/atom";
+import { goodsData } from "./components/atom/atom";
 
 interface AnswerList {
   question_id: number;

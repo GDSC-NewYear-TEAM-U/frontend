@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { SlPresent } from "react-icons/sl";
 import { useEffect, useState } from "react";
 import { useRecoilState, useSetRecoilState } from "recoil";
-import { LoginData } from "./components/atom";
+import { LoginData } from "./components/atom/atom";
 
 const Container = styled.div`
   display: flex;

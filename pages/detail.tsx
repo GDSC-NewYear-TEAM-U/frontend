@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { goodsData } from "./components/atom";
+import { goodsData } from "./components/atom/atom";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { use } from "react";
 import { SlPresent } from "react-icons/sl";
